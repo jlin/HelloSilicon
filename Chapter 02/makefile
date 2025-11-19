@@ -29,4 +29,4 @@ codesnippets: $(CSOBJS)
 	ld -o codesnippets $(LDFLAGS) $(CSOBJS)
 
 clean:
-	rm *.o movexamps addexamp1 addexamp2
+	rm *.o movexamps addexamp1 addexamp2 codesnippets
